@@ -40,7 +40,6 @@ class ShopPage extends Component {
   // unsubscribeFromSnapshot = null;
 
   componentDidMount() {
-    console.log("IM HEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!!!!!");
     const { fetchCollectionsStartAsync } = this.props;
     fetchCollectionsStartAsync();
     // this change introduces a bug when we try to enter directly to /shop/collectionId before going first to /shop
